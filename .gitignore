@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+*.log
+*.tmp
+status.json
+progress.txt
+
+# modelo exportado por gpu_diar/export_embedding.py (26MB, derivado do pyannote)
+*.onnx

@@ -1,0 +1,13 @@
+# CPU-only PyTorch (installe com --index-url https://download.pytorch.org/whl/cpu)
+torch
+torchaudio
+
+# Diarização
+pyannote.audio
+
+# Diarização acelerada por GPU (AMD/DirectML) — substitui o onnxruntime padrão
+onnxruntime-directml
+onnxscript
+
+# Transcrição em CPU (fallback caso não use o whisper.cpp/Vulkan)
+faster-whisper
